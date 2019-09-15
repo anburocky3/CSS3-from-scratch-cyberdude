@@ -1,0 +1,14 @@
+h1 {
+	font: 35px 'Roboto', sans-serif;
+	/* font-family:'Roboto', sans-serif;
+	font-size: 35px; */
+}
+
+p {
+	font-family:'Roboto', sans-serif;
+	font-style: italic;
+}
+
+p span {
+	font-weight: bold
+}
