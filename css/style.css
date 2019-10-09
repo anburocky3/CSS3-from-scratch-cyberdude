@@ -20,7 +20,11 @@ p span {
 
 .intro {
 	/* CLASS */
+	background-image: url(../img/csoding-job.png);
 	background-color: green;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 650px;
 } 
 
 .text-white {
@@ -28,16 +32,11 @@ p span {
 }
 
 .intro h1 {
-	color:red;
+	color:#FFF;
 }
 
 .intro > p {
-	font-size:40px;
-}
-
-#intro {
-	/* ID */
-	/* background-color: blue;
-	color:white; */
+	color:#FFF;
+	font-size:20px;
 }
 
