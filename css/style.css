@@ -1,3 +1,8 @@
+/* * {
+	background-color: brown;
+	color: #FFF;
+} */
+
 h1 {
 	font: 35px 'Roboto', sans-serif;
 	/* font-family:'Roboto', sans-serif;
@@ -12,3 +17,27 @@ p {
 p span {
 	font-weight: bold
 }
+
+.intro {
+	/* CLASS */
+	background-color: green;
+} 
+
+.text-white {
+	color:#FFF;
+}
+
+.intro h1 {
+	color:red;
+}
+
+.intro > p {
+	font-size:40px;
+}
+
+#intro {
+	/* ID */
+	/* background-color: blue;
+	color:white; */
+}
+
