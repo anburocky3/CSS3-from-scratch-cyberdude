@@ -62,19 +62,64 @@ p span {
   margin-top: 120px;
 }
 
-.text_formatting h1 {
+.links h1 {
   font-weight: bold;
   text-shadow: 3px 2px #000;
 
 }
 
-.text_formatting {
+.links {
   padding: 30px;
-  background-color: #2196f3;
+  background-color: #2c363f;
 
   /* Text Formatting */
   color: #FFF;
   text-align: justify;
+}
+
+.links a {
+	color: lime;
+	text-decoration: underline;
+
+}
+
+.links a:link {
+	color: red;
+}
+
+.links a:visited {
+	color: green;
+}
+
+.links a:hover {
+	color: hotpink;
+}
+
+.links a:active {
+	color: blue;
+}
+
+.facebook {
+	padding: 10px;
+	color:#FFF;
+	border: none;
+	border-radius: 8px;
+	background: #3B5998;
+}
 
 
+.google {
+	padding: 10px;
+	color:#FFF;
+	border: none;
+	border-radius: 10px;
+	background: #DB4437;
+}
+
+.twitter {
+	padding: 10px;
+	color:#FFF;
+	border: none;
+	border-radius: 10px;
+	background: #1DA1F2;
 }
