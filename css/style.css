@@ -65,7 +65,6 @@ p span {
 .links h1 {
   font-weight: bold;
   text-shadow: 3px 2px #000;
-
 }
 
 .links {
@@ -73,53 +72,22 @@ p span {
   background-color: #2c363f;
 
   /* Text Formatting */
-  color: #FFF;
+  color: #fff;
   text-align: justify;
 }
 
-.links a {
-	color: lime;
-	text-decoration: underline;
+ol {
+  background: #09944e;
+  padding: 20px;
+  list-style-position: inside;
+  list-style-image: url(list.png);
+  background-size: 40px;
+
 
 }
 
-.links a:link {
-	color: red;
-}
-
-.links a:visited {
-	color: green;
-}
-
-.links a:hover {
-	color: hotpink;
-}
-
-.links a:active {
-	color: blue;
-}
-
-.facebook {
-	padding: 10px;
-	color:#FFF;
-	border: none;
-	border-radius: 8px;
-	background: #3B5998;
-}
-
-
-.google {
-	padding: 10px;
-	color:#FFF;
-	border: none;
-	border-radius: 10px;
-	background: #DB4437;
-}
-
-.twitter {
-	padding: 10px;
-	color:#FFF;
-	border: none;
-	border-radius: 10px;
-	background: #1DA1F2;
+ol li {
+  background: #021;
+  padding: 5px;
+  margin-left: 35px;
 }
