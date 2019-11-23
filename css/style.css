@@ -76,18 +76,34 @@ p span {
   text-align: justify;
 }
 
-ol {
-  background: #09944e;
-  padding: 20px;
-  list-style-position: inside;
-  list-style-image: url(list.png);
-  background-size: 40px;
-
-
+table {
+  border-collapse: collapse;
+  width: 100%;
+  height: 50px;
+  text-align: center;
 }
 
-ol li {
-  background: #021;
-  padding: 5px;
-  margin-left: 35px;
+table,
+th,
+td {
+  border: 1px solid #fff;
+}
+
+th {
+  font-size: 20px;
+  padding: 15px;
+  background: blue;
+  text-align: center;
+}
+
+td {
+  padding: 15px;
+}
+
+tr:hover {
+  background-color: #1f262c;
+}
+
+tr:nth-child(even) {
+  background-color: #1f262cb9;
 }
