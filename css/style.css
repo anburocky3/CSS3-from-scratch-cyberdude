@@ -62,14 +62,27 @@ p span {
   margin-top: 120px;
 }
 
-.outline h1 {
+.text_formatting h1 {
   font-weight: bold;
+  text-shadow: 3px 2px #000;
+
 }
 
-.outline {
+.text_formatting {
   padding: 30px;
-  border: 2px solid #000;
-  outline: 5px solid green;
-  outline-style: dashed;
   background-color: #2196f3;
+
+  /* Text Formatting */
+  color: #FFF;
+  text-align: justify;
+  /* text-decoration: overline; */
+  /* text-decoration: line-through; */
+  /* text-decoration: underline; */
+  /* text-transform: lowercase; */
+  /* text-indent: 50px;
+  letter-spacing: 3px; */
+  /* line-height: 1.8; */
+	/* direction: rtl; */
+	/* word-spacing: 10px; */
+
 }
