@@ -4,72 +4,72 @@
 } */
 
 h1 {
-	font: 35px 'Roboto', sans-serif;
-	/* font-family:'Roboto', sans-serif;
+  font: 35px "Roboto", sans-serif;
+  /* font-family:'Roboto', sans-serif;
 	font-size: 35px; */
 }
 
 p {
-	font-family:'Roboto', sans-serif;
-	font-style: italic;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
 }
 
 p span {
-	font-weight: bold
+  font-weight: bold;
 }
 
 .intro {
-	/* CLASS */
-	background-image: url(../img/coding-job.png);
-	background-color: green;
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 650px;
-} 
+  /* CLASS */
+  background-image: url(../img/coding-job.png);
+  background-color: green;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+}
 
 .text-white {
-	color:#FFF;
+  color: #fff;
 }
 
 .intro h1 {
-	color:#FFF;
-	border-top: dashed;
-	border-left: solid;
-	border-right: solid;
-	border-bottom: dashed;
-	padding-top: 20px;
-	padding-bottom: 20px;
+  color: #fff;
+  border-top: dashed;
+  border-left: solid;
+  border-right: solid;
+  border-bottom: dashed;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .intro > p {
-	color:#FFF;
-	font-size:20px;
+  color: #fff;
+  font-size: 20px;
 }
 
 .intro button {
-	background-color: #e25e3b;
-	color:#FFF;
-	border-width: 5px;
-	border-top:dotted;
-	border-bottom: dashed;
-	border-left: solid;
-	border-right: solid;
-	border-radius: 15px;
-	margin-left:20px;
+  background-color: #e25e3b;
+  color: #fff;
+  border-width: 5px;
+  border-top: dotted;
+  border-bottom: dashed;
+  border-left: solid;
+  border-right: solid;
+  border-radius: 15px;
+  margin-left: 20px;
 }
 
 .intro img {
-	margin-top: 120px;
+  margin-top: 120px;
 }
 
-.testimonial {
-	padding: 30px;
-	/* width: 650px; */
-	/* height: 100px; */
-	max-width: 500px;
-	background-color: #2196f3;
+.outline h1 {
+  font-weight: bold;
 }
 
-.testimonial h1 {
-	font-weight: bold;
+.outline {
+  padding: 30px;
+  border: 2px solid #000;
+  outline: 5px solid green;
+  outline-style: dashed;
+  background-color: #2196f3;
 }
