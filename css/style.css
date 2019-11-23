@@ -20,7 +20,7 @@ p span {
 
 .intro {
 	/* CLASS */
-	background-image: url(../img/csoding-job.png);
+	background-image: url(../img/coding-job.png);
 	background-color: green;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -33,6 +33,12 @@ p span {
 
 .intro h1 {
 	color:#FFF;
+	border-top: dashed;
+	border-left: solid;
+	border-right: solid;
+	border-bottom: dashed;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .intro > p {
@@ -40,3 +46,18 @@ p span {
 	font-size:20px;
 }
 
+.intro button {
+	background-color: #e25e3b;
+	color:#FFF;
+	border-width: 5px;
+	border-top:dotted;
+	border-bottom: dashed;
+	border-left: solid;
+	border-right: solid;
+	border-radius: 15px;
+	margin-left:20px;
+}
+
+.intro img {
+	margin-top: 120px;
+}
