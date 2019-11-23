@@ -76,34 +76,17 @@ p span {
   text-align: justify;
 }
 
-table {
-  border-collapse: collapse;
-  width: 100%;
-  height: 50px;
-  text-align: center;
+ul li a {
+  color: green;
 }
 
-table,
-th,
-td {
-  border: 1px solid #fff;
+li {
+  margin-left: 30px;
+  display: inline;
 }
 
-th {
-  font-size: 20px;
-  padding: 15px;
-  background: blue;
-  text-align: center;
-}
+.hidden {
+  display: none;
+  visibility: hidden;
 
-td {
-  padding: 15px;
-}
-
-tr:hover {
-  background-color: #1f262c;
-}
-
-tr:nth-child(even) {
-  background-color: #1f262cb9;
 }
