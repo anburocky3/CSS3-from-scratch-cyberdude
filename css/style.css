@@ -7,59 +7,33 @@
   margin-top: 50px;
 }
 
-.float {
-  padding: 30px;
-  background-color: #2c363f;
-  color: #fff;
-  overflow: auto;
-  text-align: justify;
+.forms {
+  padding: 20px 20px;
+  background-color: #f2f2f2;
 }
 
-.float>img {
-  float: left;
-  padding: 10px;
-  margin-right: 40px;
-  background-color: #ff5722;
+
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
-/* CSS [attribute] Selector */
-/* The [attribute] selector is used to select elements with a specified attribute. */
-span[title] {
-  color:red;
+button[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-/* CSS [attribute="value"] Selector */
-/* The [attribute="value"] selector is used to select elements with a specified attribute and value. */
-span a[target="_blank"] {
-  color:red;
-}
-
-/* CSS [attribute~="value"] Selector */
-/* The [attribute~="value"] selector is used to select elements with an attribute value containing a specified word. */
-span[title~="india"] {
-  color:green;
-}
-
-/* CSS [attribute|="value"] Selector */
-/* The [attribute|="value"] selector is used to select elements with the specified attribute starting with the specified value. */
-[class|="content"]{
-  color:orange
-}
-
-/* CSS [attribute^="value"] Selector */
-/* The [attribute^="value"] selector is used to select elements whose attribute value begins with a specified value. */
-[class^=content]{
-  color: purple;
-}
-
-/* CSS [attribute$="value"] Selector */
-/* The [attribute$="value"] selector is used to select elements whose attribute value ends with a specified value. */
-[class$="footer"] {
-  color:red;
-}
-
-/* CSS [attribute*="value"] Selector */
-/* The [attribute*="value"] selector is used to select elements whose attribute value contains a specified value. */
-[class*="-"]{
-  color:lime;
+button  [type=submit]:hover {
+  background-color: #45a049;
 }
