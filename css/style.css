@@ -21,7 +21,7 @@
   float: left;
   padding: 10px;
   margin-right: 20px;
-  background-color: #4b37bd;
+  background-color: #ff5722;
 }
 
 #float-example>div {
@@ -62,16 +62,21 @@
 
 .weblayout-example>div {
   padding: 20px 0;
+  margin: 5px 0;
+  text-align: center;
+}
+
+.text-center {
   text-align: center;
 }
 
 .navbar {
-  background-color: green;
+  background-color: #4caf50;
 }
 
 .menu {
   float: left;
-  background: orange;
+  background: #3f51b5;
   width: 33.33%;
   height: 200px;
 }
@@ -81,7 +86,7 @@
 
   width: 33.33%;
   height: 200px;
-  background-color: skyblue;
+  background-color: #00bcd4;
 }
 
 .sidebar {
@@ -89,7 +94,7 @@
   width: 33.33%;
   ;
   height: 200px;
-  background: turquoise;
+  background: #ff9800;
 }
 
 .footer {
