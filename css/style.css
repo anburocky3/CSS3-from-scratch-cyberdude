@@ -22,29 +22,15 @@
   background-color: #ff5722;
 }
 
-.psuedo-elements > p::first-line {
-  color: red;
+.opacity {
+  width: 950px;
+  background-color: black;
 }
 
-
-.psuedo-elements > p::first-letter {
-  color: green;
+.opacity > img {
+  opacity: 0.5;
 }
 
-.psuedo-elements > h1::after {
-  content: " ;)"
-}
-
-.psuedo-elements > h1::before {
-  content: "Section : ";
-}
-
-::selection {
-  color:red;
-  background-color: yellow;
-}
-
-::-moz-selection { /* Code for Firefox */
-  color: red;
-  background: yellow;
+.opacity > img:hover {
+  opacity: 1;
 }
