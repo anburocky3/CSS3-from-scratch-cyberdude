@@ -11,7 +11,6 @@
   padding: 30px;
   /* height: 220px; */
   overflow: auto;
-
   background-color: #2c363f;
   color: #fff;
   text-align: justify;
@@ -21,7 +20,7 @@
   float: left;
   padding: 10px;
   margin-right: 20px;
-  background-color: #4b37bd;
+  background-color: #ff5722;
 }
 
 #float-example>div {
