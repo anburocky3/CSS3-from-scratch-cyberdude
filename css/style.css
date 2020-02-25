@@ -22,32 +22,29 @@
   background-color: #ff5722;
 }
 
-.combinators {
-  float: left;
+.psuedo-elements > p::first-line {
+  color: red;
 }
 
-.clearfix + hr{
-  clear: both;
-  color:yellow
 
+.psuedo-elements > p::first-letter {
+  color: green;
 }
 
-/* Decendant Selector */
-div p {
-  color:red
+.psuedo-elements > h1::after {
+  content: " ;)"
 }
 
-/* Child Selector */
-div > p {
-  color:green
-} 
-
-/* Adjacent Sibling Selector */
-#adjacent-selector + h2 {
-  color:yellow
+.psuedo-elements > h1::before {
+  content: "Section : ";
 }
 
-/* General Sibling Selector */
-#adjacent-selector ~ h2 {
-  color:yellow
+::selection {
+  color:red;
+  background-color: yellow;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: red;
+  background: yellow;
 }
