@@ -2,38 +2,21 @@
   font-family: "Roboto", sans-serif;
 }
 
+body {
+  counter-reset: videos;
+}
+
 /* Utilities */
 .mt-5 {
   margin-top: 50px;
 }
 
-.forms {
+.counters {
   padding: 20px 20px;
-  background-color: #f2f2f2;
-}
-
-
-
-input[type="text"] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 15px 0;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-
-button[type=submit] {
-  width: 100%;
   background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
 }
 
-button  [type=submit]:hover {
-  background-color: #45a049;
+h2::before {
+  counter-increment: videos;
+  content: "Videos #" counter(videos) ": ";
 }
