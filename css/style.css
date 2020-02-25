@@ -3,20 +3,17 @@
 }
 
 body {
-  counter-reset: videos;
+  background-color: lightblue;
 }
 
-/* Utilities */
-.mt-5 {
-  margin-top: 50px;
+@media screen and (max-width: 900px){
+  body {
+    background-color: lightcoral;
+  }
 }
 
-.counters {
-  padding: 20px 20px;
-  background-color: #4CAF50;
-}
-
-h2::before {
-  counter-increment: videos;
-  content: "Videos #" counter(videos) ": ";
+@media screen and (max-width: 600px){
+  body {
+    background-color: lightgreen;
+  }
 }
