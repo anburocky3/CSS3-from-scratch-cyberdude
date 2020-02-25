@@ -1,79 +1,5 @@
-/* * {
-	background-color: brown;
-	color: #FFF;
-} */
-
-h1 {
-  font: 35px "Roboto", sans-serif;
-  /* font-family:'Roboto', sans-serif;
-	font-size: 35px; */
-}
-
-p {
+* {
   font-family: "Roboto", sans-serif;
-  font-style: italic;
-}
-
-p span {
-  font-weight: bold;
-}
-
-.intro {
-  /* CLASS */
-  background-image: url(../img/coding-job.png);
-  background-color: green;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 650px;
-}
-
-.text-white {
-  color: #fff;
-}
-
-.intro h1 {
-  color: #fff;
-  border-top: dashed;
-  border-left: solid;
-  border-right: solid;
-  border-bottom: dashed;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.intro > p {
-  color: #fff;
-  font-size: 20px;
-}
-
-.intro button {
-  background-color: #e25e3b;
-  color: #fff;
-  border-width: 5px;
-  border-top: dotted;
-  border-bottom: dashed;
-  border-left: solid;
-  border-right: solid;
-  border-radius: 15px;
-  margin-left: 20px;
-}
-
-.intro img {
-  margin-top: 120px;
-}
-
-.links h1 {
-  font-weight: bold;
-  text-shadow: 3px 2px #000;
-}
-
-.links {
-  padding: 30px;
-  background-color: #2c363f;
-
-  /* Text Formatting */
-  color: #fff;
-  text-align: justify;
 }
 
 /* Utilities */
@@ -81,51 +7,92 @@ p span {
   margin-top: 50px;
 }
 
-div.static {
-  position: static;
-  border: 3px solid #73ad21;
+.float {
+  padding: 30px;
+  /* height: 220px; */
+  overflow: auto;
+
+  background-color: #2c363f;
+  color: #fff;
+  text-align: justify;
 }
 
-div.relative {
-  position: relative;
-  left: 30px;
-  border: 3px solid #73ad21;
-}
-
-div.fixed {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  border: 3px solid #73ad21;
-  background: darkolivegreen;
-  text-align: center;
+.float>img {
+  float: left;
   padding: 10px;
+  margin-right: 20px;
+  background-color: #4b37bd;
 }
 
-div.relatives {
-  position: relative;
-  left: 450px;
-  width: 400px;
+#float-example>div {
+  text-align: center;
+  width: 100px;
+  padding: 20px 0;
+  margin-bottom: 10px;
+  float: right;
+}
+
+.green {
+  background: #6aff6aad;
+}
+
+.red {
+  background-color: #ff7373;
+}
+
+.blue {
+  background-color: skyblue;
+}
+
+.purple {
+  background-color: #ff88ff;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.brown {
+  background-color: #ff7575;
+}
+
+.clearboth {
+  clear: both;
+}
+
+.weblayout-example>div {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.navbar {
+  background-color: green;
+}
+
+.menu {
+  float: left;
+  background: orange;
+  width: 33.33%;
   height: 200px;
-  border: 3px solid #73AD21;
 }
 
-div.absolute {
-  position: absolute;
-  top: 80px;
-  right: 0;
-  width: 200px;
-  height: 100px;
-  border: 3px solid #73AD21;
+.content {
+  float: left;
+
+  width: 33.33%;
+  height: 200px;
+  background-color: skyblue;
 }
 
-div.sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  padding: 15px;
-  background-color: #cae8ca;
-  border: 2px solid #4CAF50;
-  z-index: 1;
+.sidebar {
+  float: left;
+  width: 33.33%;
+  ;
+  height: 200px;
+  background: turquoise;
+}
+
+.footer {
+  clear: both;
+  background-color: tomato;
 }
