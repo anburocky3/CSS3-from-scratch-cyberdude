@@ -1,16 +1,46 @@
 * {
   font-family: "Roboto", sans-serif;
+  background-color: rgb(73, 73, 255);
+  color: #fff;
 }
 
-h2 {
-  background-color: green;
+.flex-container {
+  background-color: lightcoral !important;
+
+
+  display: flex;
+
+  flex-direction: row-reverse;
+  /* default:row; row-reverse; column;  column-reverse */
+
+  flex-wrap: wrap;
+  /* default:nowrap; wrap; wrap-reverse */
+
+  flex-flow: column no-wrap;
+  /* flex-flow: direction wrap;  */
+
+  justify-content: space-between; 
+  /* default:flex-start; center; flex-end; space-around; space-between; */
+
+  height: 400px;
+
+  align-items: center;
+  /* default: stretch; flex-start; center; flex-end; */
+
+  align-content: stretch;
+    /* default: stretch; flex-start; center; flex-end; space-around; space-between; */
+
+  align-items: stretch;
+
+    /* justify-content: center;
+    align-items: center; */
 }
 
-#example h2{
-  background-color: red;
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  color: #000;
 }
-
-.example h2 {
-  background-color: yellow;
-}
-
