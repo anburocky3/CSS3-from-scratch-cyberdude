@@ -1,46 +1,48 @@
 * {
   font-family: "Roboto", sans-serif;
-  background-color: rgb(73, 73, 255);
+  background-color: rgb(218, 218, 218);
   color: #fff;
-}
-
-.flex-container {
-  background-color: lightcoral !important;
-
-
-  display: flex;
-
-  flex-direction: row-reverse;
-  /* default:row; row-reverse; column;  column-reverse */
-
-  flex-wrap: wrap;
-  /* default:nowrap; wrap; wrap-reverse */
-
-  flex-flow: column no-wrap;
-  /* flex-flow: direction wrap;  */
-
-  justify-content: space-between; 
-  /* default:flex-start; center; flex-end; space-around; space-between; */
-
-  height: 400px;
-
-  align-items: center;
-  /* default: stretch; flex-start; center; flex-end; */
-
-  align-content: stretch;
-    /* default: stretch; flex-start; center; flex-end; space-around; space-between; */
-
-  align-items: stretch;
-
-    /* justify-content: center;
-    align-items: center; */
-}
-
-.flex-container > div {
-  background-color: #f1f1f1;
-  margin: 10px;
-  padding: 20px;
-  font-size: 30px;
   text-align: center;
-  color: #000;
+}
+
+header, section, aside, footer {
+  margin: 0;
+  padding: 20px;
+  border: 1px solid #000000;
+}
+
+header {
+  background: #03a9f4;
+}
+
+.menu {
+  background: #d22b1f;
+
+  /* Flex */
+  flex-basis: 200px;
+}
+
+.content {
+  background: #129a22;
+  flex-grow: 1;
+  
+}
+
+aside {
+  border: 1px solid #000000;
+  background: #673ab7;
+
+  /* Flex */
+  flex-basis: 200px;
+}
+
+footer {
+  border: 1px solid #000000;
+  background: #616161;
+}
+
+/* Flex */
+.flex-container {
+  display: flex;
+  height: 400px;
 }
